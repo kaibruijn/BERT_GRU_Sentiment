@@ -17,6 +17,7 @@ Requirements:
 - langdetect==1.0.8
 - matplotlib==3.2.1
 - mlxtend==0.17.2
+- nltk==3.4.5
 - numpy==1.18.4
 - pandas==0.25.3
 - pycuda==2019.1.2
