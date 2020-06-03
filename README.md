@@ -46,6 +46,7 @@ If you want to train on the binary sentiment analysis task and test on multiclas
 - imdb_movie_reviews.csv - data set for English binary movie reviews [4][5]
 - linear_regression.py- linear regression baseline for classification
 - logistic_regression.py- logistic regression baseline for classification
+- read_data_baselines.py - read_data() functions fot the baselines for all data sets
 - read_datas.py - read_data() functions for all data sets
 - six_class_reviews.txt - data set for English 6-class clasification of product reviews [6][7]
 - svm.py - svm baseline for classification
