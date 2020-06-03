@@ -19,10 +19,10 @@ Sentiment Analysis using traditional machine learning methods for Language Techn
 Run (train + test):
 Simply run [baseline].py, where [baseline] is replaced with either 'svm', 'linear_regression' or 'logistic_regression'. 
 
-If you want to train on the binary sentiment analysis task and test on multiclass sentiment analysis, run trainbinary_testmulti_[baseline]_multiclass_movies, where [baseline] is replaced with a traditional method.
-
 Change data:
 read_data_baselines.py provides possible data sets. For this, simply change read_data() in [baseline].py.
+
+If you want to train on the binary sentiment analysis task and test on multiclass sentiment analysis, run trainbinary_testmulti_[baseline]_multiclass_movies, where [baseline] is replaced with a traditional method. Here, the read_data() cannot be changed.
 
 # Requirements:
 - langdetect==1.0.8
