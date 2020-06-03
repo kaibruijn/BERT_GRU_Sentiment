@@ -13,7 +13,18 @@ Change data:
 read_datas.py provides possible data sets. For this, simply change read_data() in bert_gru.py.
 New data sets need to be in a Pandas DataFrame as can be seen in read_datas.py.
 
-Requirements:
+# Baselines (SVM, Logistic Regression and Linear Regression)
+Sentiment Analysis using traditional machine learning methods for Language Technology Project at University of Groningen
+
+Run (train + test):
+Simply run [baseline].py, where [baseline] is replaced with either 'svm', 'linear_regression' or 'logistic_regression'. 
+
+If you want to train on the binary sentiment analysis task and test on multiclass sentiment analysis, run trainbinary_testmulti_[baseline]_multiclass_movies, where [baseline] is replaced with a traditional method.
+
+Change data:
+read_data_baselines.py provides possible data sets. For this, simply change read_data() in [baseline].py.
+
+# Requirements:
 - langdetect==1.0.8
 - matplotlib==3.2.1
 - mlxtend==0.17.2
@@ -25,7 +36,7 @@ Requirements:
 - torchtext==0.6.0
 - transformers==2.9.1
 
-File desciption:
+# File desciption:
 - bert_gru.py - main file for doing classification
 - bert_gru.sh - shell script used on University of Groningen's Peregrine HPC Cluster
 - dutch_movie_reviews_test.csv - data set for Dutch binary movie reviews [1]
@@ -36,7 +47,7 @@ File desciption:
 - read_datas.py - read_data() functions for all data sets
 - six_class_reviews.txt - data set for English 6-class clasification of product reviews [6][7]
 
-References:
+# References:
 1. https://github.com/benjaminvdb/110kDBRD
 2. https://data.world/crowdflower/sentiment-analysis-in-text
 3. https://www.kaggle.com/c/sentiment-analysis-on-movie-reviews/data
