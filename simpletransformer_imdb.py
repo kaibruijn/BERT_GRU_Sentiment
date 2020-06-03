@@ -22,7 +22,7 @@ def transformer(train_df, eval_df, architecture, model_type, args):
     print(result['cm']) # Confusion matrix
 
 def read_data():
-	return pd.read_csv("IMDB Dataset.csv", names=["text", "labels"])
+	return pd.read_csv("imdb_movie_reviews.csv", names=["text", "labels"])
 
 def data_distribution(data):
 	return Counter(data["labels"].tolist())
@@ -37,11 +37,11 @@ def transformer_arguments():
     return {
       'output_dir': 'output/',
       'cache_dir': 'cache/',
-      'max_seq_length': 512,
-      'train_batch_size': 128,
-      'eval_batch_size': 128,
+      'max_seq_length': 128,
+      'train_batch_size': 8,
+      'eval_batch_size': 8,
       'gradient_accumulation_steps': 1,
-      'num_train_epochs': 3,
+      'num_train_epochs': 1,
       'weight_decay': 0,
       'learning_rate': 4e-5,
       'adam_epsilon': 1e-8,
