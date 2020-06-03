@@ -39,19 +39,19 @@ read_data_baselines.py provides possible data sets. For this, simply change read
 # File desciption:
 - bert_gru.py - main file for doing classification
 - bert_gru.sh - shell script used on University of Groningen's Peregrine HPC Cluster
-- svm.py - svm baseline for classification
-- linear_regression.py- linear regression baseline for classification
-- logistic_regression.py- logistic regression baseline for classification
-- trainbinary_testmulti_svm_multiclass_movies.py - svm for training on binary task and testing on multiclass task
-- trainbinary_testmulti_logistic_regression_multiclass_movies.py - logistic regression for training on binary task and testing on multiclass task
-- trainbinary_testmulti_lin_reg_multiclass_movies.py - linear regression for training on binary task and testing on multiclass task
 - dutch_movie_reviews_test.csv - data set for Dutch binary movie reviews [1]
 - dutch_movie_reviews_train.csv - data set for Dutch binary movie reviews [1]
 - emotion_classification.txt - data set for English 13-class emotion classification [2]
 - five_star_movie_reviews.tsv - data set for English five star movie reviews [3]
 - imdb_movie_reviews.csv - data set for English binary movie reviews [4][5]
+- linear_regression.py- linear regression baseline for classification
+- logistic_regression.py- logistic regression baseline for classification
 - read_datas.py - read_data() functions for all data sets
 - six_class_reviews.txt - data set for English 6-class clasification of product reviews [6][7]
+- svm.py - svm baseline for classification
+- trainbinary_testmulti_svm_multiclass_movies.py - svm for training on binary task and testing on multiclass task
+- trainbinary_testmulti_lin_reg_multiclass_movies.py - linear regression for training on binary task and testing on multiclass task
+- trainbinary_testmulti_logistic_regression_multiclass_movies.py - logistic regression for training on binary task and testing on multiclass task
 
 # References:
 1. https://github.com/benjaminvdb/110kDBRD
