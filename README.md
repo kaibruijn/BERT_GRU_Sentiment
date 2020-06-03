@@ -24,3 +24,22 @@ Requirements:
 - torchtext==0.6.0
 - transformers==2.9.1
 
+File desciption:
+bert_gru.py - main file for doing classification
+bert_gru.sh - shell script used on University of Groningen's Peregrine HPC Cluster
+dutch_movie_reviews_test.csv - data set for Dutch binary movie reviews [1]
+dutch_movie_reviews_train.csv - data set for Dutch binary movie reviews [1]
+emotion_classification.txt - data set for English 13-class emotion classification [2]
+five_star_movie_reviews.tsv - data set for English five star movie reviews [3]
+imdb_movie_reviews.csv - data set for English binary movie reviews [4][5]
+read_datas.py - read_data() functions for all data sets
+six_class_reviews.txt - data set for English 6-class clasification of product reviews [6][7]
+
+References:
+1. https://github.com/benjaminvdb/110kDBRD
+2. https://data.world/crowdflower/sentiment-analysis-in-text
+3. https://www.kaggle.com/c/sentiment-analysis-on-movie-reviews/data
+4. https://www.kaggle.com/lakshmi25npathi/imdb-dataset-of-50k-movie-reviews/data
+5. Maas, A. L., Daly, R. E., Pham, P. T., Huang, D., Ng, A. Y., & Potts, C. (2011, June). Learning word vectors for sentiment analysis. In Proceedings of the 49th annual meeting of the association for computational linguistics: Human language technologies-volume 1 (pp. 142-150). Association for Computational Linguistics.
+6. https://www.kaggle.com/jeromeblanchet/multidomain-sentiment-analysis-dataset/data
+7. Blitzer, J., Dredze, M., & Pereira, F. (2007, June). Biographies, bollywood, boom-boxes and blenders: Domain adaptation for sentiment classification. In Proceedings of the 45th annual meeting of the association of computational linguistics (pp. 440-447).
