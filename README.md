@@ -24,6 +24,8 @@ read_data_baselines.py provides possible data sets. For this, simply change read
 
 If you want to train on the binary sentiment analysis task and test on multiclass sentiment analysis, run trainbinary_testmulti_[baseline]_multiclass_movies, where [baseline] is replaced with a traditional method. Here, the read_data() cannot be changed.
 
+A basic simpletransformers implementation using 'bert-base-cased' with default settings is also added as a baseline. It can be run on the IMDB Movie data set using simpletransformer_imdb.py
+
 # Requirements:
 - langdetect==1.0.8
 - matplotlib==3.2.1
@@ -32,6 +34,7 @@ If you want to train on the binary sentiment analysis task and test on multiclas
 - numpy==1.18.4
 - pandas==0.25.3
 - pycuda==2019.1.2
+- simpletransformers==0.10.2
 - torch==1.3.1
 - torchtext==0.6.0
 - transformers==2.9.1
