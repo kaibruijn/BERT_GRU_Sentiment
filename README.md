@@ -52,6 +52,7 @@ A basic simpletransformers [1] implementation using 'bert-base-cased' with defau
 - read_data_baselines.py - read_data() functions fot the baselines for all data sets
 - read_datas.py - read_data() functions for all data sets
 - six_class_reviews.txt - data set for English 6-class clasification of product reviews [7][8]
+- simpletransformer_imdb.py - a basic simpletransformers [1] implementation using 'bert-base-cased' with default settings on English binary movie reviews
 - svm.py - svm baseline for classification
 - trainbinary_testmulti_svm_multiclass_movies.py - svm for training on binary task and testing on multiclass task
 - trainbinary_testmulti_lin_reg_multiclass_movies.py - linear regression for training on binary task and testing on multiclass task
