@@ -16,12 +16,18 @@ New data sets need to be in a Pandas DataFrame as can be seen in read_datas.py.
 # Baselines (SVM, Logistic Regression and Linear Regression)
 Sentiment Analysis using traditional machine learning methods for Language Technology Project at University of Groningen
 
+FOR SVM AND LOGISTIC REGRESSION
 Run (train + test):
-Simply run [baseline].py, where [baseline] is replaced with either 'svm', 'linear_regression' or 'logistic_regression'. 
+Simply run [baseline].py, where [baseline] is replaced with either 'svm' or 'logistic_regression'. 
 
 Change data:
 read_data_baselines.py provides possible data sets. For this, simply change read_data() in [baseline].py.
 
+FOR LINEAR REGRESSION
+Run (train + test):
+Simply run linreg_dutch_book_reviews.py or linreg_imdb_movie_reviews.py.
+
+FOR SVM, LOGISTIC REGRESSION AND LINEAR REGRESSION
 If you want to train on the binary sentiment analysis task and test on multiclass sentiment analysis, run trainbinary_testmulti_[baseline]_multiclass_movies, where [baseline] is replaced with a traditional method. Here, the read_data() cannot be changed.
 
 A basic simpletransformers [1] implementation using 'bert-base-cased' with default settings is also added as a baseline. It can be run on the IMDB Movie data set using simpletransformer_imdb.py
@@ -47,7 +53,8 @@ A basic simpletransformers [1] implementation using 'bert-base-cased' with defau
 - emotion_classification.txt - data set for English 13-class emotion classification [3]
 - five_star_movie_reviews.tsv - data set for English five star movie reviews [4]
 - imdb_movie_reviews.csv - data set for English binary movie reviews [5][6]
-- linear_regression.py- linear regression baseline for classification
+- linreg_dutch_book_reviews.py - linear regression baseline for classification on dutch book reviews
+- linreg_imdb_movie_reviews.py - linear regression baseline for classification on english movie reviews
 - logistic_regression.py- logistic regression baseline for classification
 - read_data_baselines.py - read_data() functions fot the baselines for all data sets
 - read_datas.py - read_data() functions for all data sets
