@@ -56,7 +56,7 @@ A basic simpletransformers [1] implementation using 'bert-base-cased' with defau
 - linreg_dutch_book_reviews.py - linear regression baseline for classification on dutch book reviews
 - linreg_imdb_movie_reviews.py - linear regression baseline for classification on english movie reviews
 - logistic_regression.py- logistic regression baseline for classification
-- read_data_baselines.py - read_data() functions fot the baselines for all data sets
+- read_data_baselines.py - read_data() functions fot the baselines for all data sets (not for linear regression)
 - read_datas.py - read_data() functions for all data sets
 - simpletransformer_imdb.py - a basic simpletransformers [1] implementation using 'bert-base-cased' with default settings on English binary movie reviews
 - six_class_reviews.txt - data set for English 6-class clasification of product reviews [7][8]
