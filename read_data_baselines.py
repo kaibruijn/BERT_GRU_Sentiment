@@ -10,8 +10,8 @@ def read_data(): #English binary sentiment analysis task
 
 
 def read_data(): #Dutch binary sentiment analysis
-    train_df = pd.read_csv("dutch_movie_reviews_train.csv", names=["text", "labels"])
-    test_df = pd.read_csv("dutch_movie_reviews_test.csv", names=["text", "labels"])
+    train_df = pd.read_csv("dutch_book_reviews_train.csv", names=["text", "labels"])
+    test_df = pd.read_csv("dutch_book_reviews_test.csv", names=["text", "labels"])
     df = pd.concat([train_df, test_df[1:]])
     train_df = df[1:14836]
     test_df = df[14836:]

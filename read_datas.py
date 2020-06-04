@@ -10,8 +10,8 @@ def read_data():
 
 def read_data():
     """ Returns training, validation and test data"""
-    train_df = pd.read_csv("dutch_movie_reviews_train.csv", names=["text", "label"]) #Column 1: any texts, column 2: any binary labels
-    test_df = pd.read_csv("dutch_movie_reviews_test.csv", names=["text", "label"])
+    train_df = pd.read_csv("dutch_book_reviews_train.csv", names=["text", "label"]) #Column 1: any texts, column 2: any binary labels
+    test_df = pd.read_csv("dutch_book_reviews_test.csv", names=["text", "label"])
     data_df = pd.concat([train_df, test_df[1:]])
     train_df = data_df[1:11867]
     valid_df = data_df[11867:14836]
