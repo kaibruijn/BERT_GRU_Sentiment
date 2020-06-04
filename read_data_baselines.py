@@ -48,7 +48,7 @@ def read_data(): #5 star multiclass sentiment analysis
 def read_data(): #Emotion multiclass sentiment analysis
     text = []
     labels = []
-    with open("text_emotion.txt") as file:
+    with open("emotion_classification.txt") as file:
         for line in file:
             labels.append(line.split(",")[1][2:-2])
             text.append(line.split(",")[3][2:-5])
