@@ -17,6 +17,7 @@ New data sets need to be in a Pandas DataFrame as can be seen in read_datas.py.
 Sentiment Analysis using traditional machine learning methods for Language Technology Project at University of Groningen
 
 FOR SVM AND LOGISTIC REGRESSION
+
 Run (train + test):
 Simply run [baseline].py, where [baseline] is replaced with either 'svm' or 'logistic_regression'. 
 
@@ -24,10 +25,12 @@ Change data:
 read_data_baselines.py provides possible data sets. For this, simply change read_data() in [baseline].py.
 
 FOR LINEAR REGRESSION
+
 Run (train + test):
 Simply run linreg_dutch_book_reviews.py or linreg_imdb_movie_reviews.py.
 
 FOR SVM, LOGISTIC REGRESSION AND LINEAR REGRESSION
+
 If you want to train on the binary sentiment analysis task and test on multiclass sentiment analysis, run trainbinary_testmulti_[baseline]_multiclass_movies, where [baseline] is replaced with a traditional method. Here, the read_data() cannot be changed.
 
 A basic simpletransformers [1] implementation using 'bert-base-cased' with default settings is also added as a baseline. It can be run on the IMDB Movie data set using simpletransformer_imdb.py
