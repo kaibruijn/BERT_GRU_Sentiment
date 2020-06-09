@@ -51,22 +51,22 @@ A basic simpletransformers [1] implementation using 'bert-base-cased' with defau
 # File desciption:
 - Code/bert_gru.py - main file for doing classification
 - Code/bert_gru.sh - shell script used on University of Groningen's Peregrine HPC Cluster
-- Data/dutch_book_reviews_test.csv - data set for Dutch binary book reviews [2]
-- Data/dutch_book_reviews_train.csv - data set for Dutch binary book reviews [2]
-- Data/emotion_classification.txt - data set for English 13-class emotion classification [3]
-- Data/five_star_movie_reviews.tsv - data set for English five star movie reviews [4]
-- Data/imdb_movie_reviews.csv - data set for English binary movie reviews [5][6]
 - Code/linreg_dutch_book_reviews.py - linear regression baseline for classification on dutch book reviews
 - Code/linreg_imdb_movie_reviews.py - linear regression baseline for classification on english movie reviews
 - Code/logistic_regression.py- logistic regression baseline for classification
 - Code/read_data_baselines.py - read_data() functions fot the baselines for all data sets (not for linear regression)
 - Code/read_datas.py - read_data() functions for all data sets
 - Code/simpletransformer_imdb.py - a basic simpletransformers [1] implementation using 'bert-base-cased' with default settings on English binary movie reviews
-- Data/six_class_reviews.txt - data set for English 6-class clasification of product reviews [7][8]
 - Code/svm.py - svm baseline for classification
 - Code/trainbinary_testmulti_svm_multiclass_movies.py - svm for training on binary task and testing on multiclass task
 - Code/trainbinary_testmulti_lin_reg_multiclass_movies.py - linear regression for training on binary task and testing on multiclass task
 - Code/trainbinary_testmulti_logistic_regression_multiclass_movies.py - logistic regression for training on binary task and testing on multiclass task
+- Data/dutch_book_reviews_test.csv - data set for Dutch binary book reviews [2]
+- Data/dutch_book_reviews_train.csv - data set for Dutch binary book reviews [2]
+- Data/emotion_classification.txt - data set for English 13-class emotion classification [3]
+- Data/five_star_movie_reviews.tsv - data set for English five star movie reviews [4]
+- Data/imdb_movie_reviews.csv - data set for English binary movie reviews [5][6]
+- Data/six_class_reviews.txt - data set for English 6-class clasification of product reviews [7][8]
 
 # References:
 1. https://github.com/ThilinaRajapakse/simpletransformers/
